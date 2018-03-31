@@ -30,6 +30,18 @@ console.log('Javascript
 <script type="text/javascript" src="js/particles.min.js"></script>
 <script type="text/javascript" src="js/typed.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+	<script>
+       document.addEventListener('contextmenu', event => event.preventDefault());
+       </script>
+
+	<script>
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
+                alert("Sorry,U Cannot..Be Creative!");
+            }
+            return false;
+    };
+    </script>
 </body>
 
 </html>
